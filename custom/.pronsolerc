@@ -1,0 +1,39 @@
+set last_window_maximized False
+set last_window_width 1100
+set last_window_height 892
+macro Tower1
+  G28
+  G0 Z0 X0 Y90 F3500
+set port /dev/ttyACM0
+set baudrate 115200
+set bedtemp_pla 105
+set temperature_pla 210
+set slicecommand 
+set sliceoptscommand 
+set build_dimensions 100.00x100.00x300.00+0.00+0.00+0.00+0.00+0.00+0.00
+set circular_bed True
+set extruders 1
+set clamp_jogging True
+set mainviz 2D
+set xy_feedrate 6000
+set z_feedrate 6000
+set e_feedrate 100
+set last_bed_temperature 90.0
+set uimode Standard
+button 0 "Tower1" /c "Orange" Tower1
+macro Tower2
+  G28
+  G0 Z0 X77.94 Y-45 F3500
+macro Tower3
+  G28
+  G0 Z0 X-77.94 Y-45 F3500
+button 1 "Tower2" /c "Orange" Tower2
+button 2 "Tower3" /c "Orange" Tower3
+macro Center
+  G28
+  G0 Z0
+button 3 "Center" /c "Teal" Center
+set last_sash_position 274
+macro EEPROM M205
+button 4 "EEPROM" EEPROM
+macro HorizontalRadius M206 EPR:3 885 128.860M206 3 885 128.860

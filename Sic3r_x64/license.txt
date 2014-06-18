@@ -1,0 +1,5 @@
+The following was found on the slic3r website.
+
+"Slic3r is licensed under the GNU Affero General Public License, version 3"
+
+As such, that license is included in this directory.
