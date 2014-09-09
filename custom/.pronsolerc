@@ -1,6 +1,6 @@
-set last_window_maximized False
-set last_window_width 1100
-set last_window_height 892
+set last_window_maximized True
+set last_window_width 1231
+set last_window_height 694
 macro Tower1
   G28
   G0 Z0 X0 Y90 F3500
@@ -18,7 +18,7 @@ set mainviz 2D
 set xy_feedrate 6000
 set z_feedrate 6000
 set e_feedrate 100
-set last_bed_temperature 90.0
+set last_bed_temperature 100.0
 set uimode Standard
 button 0 "Tower1" /c "Orange" Tower1
 macro Tower2
@@ -33,7 +33,11 @@ macro Center
   G28
   G0 Z0
 button 3 "Center" /c "Teal" Center
-set last_sash_position 274
+set last_sash_position 600
 macro EEPROM M205
 button 4 "EEPROM" EEPROM
-macro HorizontalRadius M206 EPR:3 885 128.860M206 3 885 128.860
+macro HorizontalRadius M206 3 885 128.850
+set last_file_path
+set recentfiles
+set last_temperature 185.0
+set total_filament_used 322.22718
