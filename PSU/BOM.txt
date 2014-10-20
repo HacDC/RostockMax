@@ -1,5 +1,7 @@
-1 * 24V 20A PSU - http://www.ebay.com/itm/Universal-5-12-24-48V-1-2-3-10-15-20-30-50A-Switch-Power-Supply-Driver-LED-Strip-/351105796408?pt=US_Lighting_Parts_and_Accessories&var=&hash=item51bf894938
+1 * 24V 20A PSU - http://openbuildspartstore.com/24v-20a-power-supply/
 
 1 * XT60 Connector (Genuine, OpenSource, DO NOT buy elsewhere.) - http://www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
 
 1 * N-Channel MOSFET - MOUSER 942-IRFB7546PBF
+
+Note the PSU may arrive configured for 220V by default, and must be reconfigured to actual line voltage (110V USA) for optimum performance.
