@@ -36,7 +36,7 @@ button 3 "Center" /c "Teal" Center
 set last_sash_position 600
 macro EEPROM M205
 button 4 "EEPROM" EEPROM
-macro HorizontalRadius M206 3 885 128.850
+macro HorizontalRadius M206 T3 P885 X128.850
 set last_file_path
 set recentfiles
 set last_temperature 185.0
