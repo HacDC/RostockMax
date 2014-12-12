@@ -1,6 +1,6 @@
 set last_window_maximized True
-set last_window_width 1231
-set last_window_height 694
+set last_window_width 907
+set last_window_height 638
 macro Tower1
   G28
   G0 Z0 X0 Y90 F3500
@@ -18,7 +18,7 @@ set mainviz 2D
 set xy_feedrate 6000
 set z_feedrate 6000
 set e_feedrate 100
-set last_bed_temperature 100.0
+set last_bed_temperature 180.0
 set uimode Standard
 button 0 "Tower1" /c "Orange" Tower1
 macro Tower2
@@ -37,7 +37,9 @@ set last_sash_position 600
 macro EEPROM M205
 button 4 "EEPROM" EEPROM
 macro HorizontalRadius M206 T3 P885 X128.850
-set last_file_path
-set recentfiles
+set last_file_path /home/commonadmin/FSGateway/Projects/Permanent/Profitable/Imagnus/Resources/Products/CAD/dripsensor-cad/Exports/enclosure
+set recentfiles ["/home/commonadmin/FSGateway/Projects/Permanent/Profitable/Imagnus/Resources/Products/CAD/dripsensor-cad/Exports/enclosure/s.g"]
 set last_temperature 185.0
 set total_filament_used 322.22718
+macro 24V_SafePWM M206 T0 P120 S140
+button 5 "24V_SafePWM" /c "red" 24V_SafePWM
