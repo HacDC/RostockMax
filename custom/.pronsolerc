@@ -37,8 +37,8 @@ set last_sash_position 600
 macro EEPROM M205
 button 4 "EEPROM" EEPROM
 macro HorizontalRadius M206 T3 P885 X128.850
-set last_file_path /home/commonadmin/FSGateway/Projects/Permanent/Profitable/Imagnus/Resources/Products/CAD/dripsensor-cad/Exports/enclosure
-set recentfiles ["/home/commonadmin/FSGateway/Projects/Permanent/Profitable/Imagnus/Resources/Products/CAD/dripsensor-cad/Exports/enclosure/s.g"]
+set last_file_path 
+set recentfiles [""]
 set last_temperature 185.0
 set total_filament_used 322.22718
 macro 24V_SafePWM M206 T0 P120 S140
